@@ -1,0 +1,20 @@
+body {
+    font-size: 1em;
+    text-align: center;
+    font-family: Verdana;
+}
+
+#mySubmit {
+    border-radius: 5px;
+    color: white;
+    margin: 1em;
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: cornflowerblue;
+}
+
+#mySubmit:hover {
+    transition: background-color 2.5s;
+    background-color: rgb(56, 82, 130);
+    cursor: pointer;
+}
