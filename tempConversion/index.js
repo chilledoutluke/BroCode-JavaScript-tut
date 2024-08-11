@@ -10,7 +10,9 @@ let temp;
 function convert(){
     
     if(toFahrenhuit.checked){
-
+        temp = Number(textBox.value);
+        temp = temp * 9 / 5 + 32;
+        result.textContent = temp + "°F"
     }
     else if(toCelsius.checked){
 
