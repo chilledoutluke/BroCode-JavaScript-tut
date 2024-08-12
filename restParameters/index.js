@@ -50,3 +50,12 @@ const total = getAverage(75, 100, 85, 90, 50);
 console.log(total);
 */
 
+//Example 3
+
+function combineStrings(...strings){
+    return strings.join(" ");
+}
+
+const fullName = combineStrings("Mr.", "Spongebob", "Squarepants", "III");
+
+console.log(fullName);
