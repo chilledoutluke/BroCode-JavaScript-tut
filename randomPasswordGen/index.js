@@ -30,7 +30,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     return password;
 }
 
-const passwordLength = 0;
+const passwordLength = 12;
 const includeLowercase = true;
 const includeUppercase = true;
 const includeNumbers = true;
