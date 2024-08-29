@@ -35,3 +35,7 @@ function sum(callback, x, y){
 function displayConsole(result){
     console.log(result)
 }
+
+function displayPage(result){
+    document.getElementById("myH1").textContent = result;
+}
